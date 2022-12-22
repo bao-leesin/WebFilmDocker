@@ -1,0 +1,39 @@
+@import "../../common/color.scss";
+
+.movie-list {
+  margin: 20px 0px;
+  .slick-next:before,.slick-prev:before{
+    font-size: 53px;
+    // line-height: 1;
+    // opacity: .75;
+    // color: #fff;
+  }
+  .slick-next, 
+  .slick-prev{
+    top:44%;
+    right: 2%;
+    
+  }
+}
+
+.slick-next{
+  right:12px;
+}
+
+.slick-prev{
+  left: 0px;
+  z-index: 1;
+  
+}
+
+.movie-list h2 {
+  font-weight: 500;
+  font-size: 25px;
+  color: $secondary-font;
+  margin-bottom: 5px;
+}
+// .movie-container {
+//   display: grid;
+//   grid-template-columns: repeat(4, 1fr);
+//   grid-gap: 10px;
+// }

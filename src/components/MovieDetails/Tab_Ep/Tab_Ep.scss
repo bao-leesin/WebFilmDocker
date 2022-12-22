@@ -1,0 +1,5 @@
+.tab_ep{
+    display: grid;
+    /* grid-template-columns: 25% 25% 25% 25%; */
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}

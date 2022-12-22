@@ -1,0 +1,97 @@
+.tab_comment{
+    .bl{
+        font-size: 25px;
+        font-weight: 500;
+        color: #FFFFFF;
+        .bl1{
+            color:#C5C4C4   
+        }
+    }
+
+    // .input_1{
+    //     height: 35px
+    // }
+
+    .but{
+        
+        position: initial;
+        // float:right;
+        margin-top: 1%;
+        margin-left: 85%;
+        height: 40px;
+        width: 118px;
+        background-color: #DE5454;
+        border: none;
+        padding: 10px;
+        text-align: center;
+        cursor: pointer;
+    
+
+    }
+
+    .but:hover{
+        
+        position: initial;
+        // float:right;
+        margin-top: 1%;
+        margin-left: 85%;
+        height: 40px;
+        width: 118px;
+        background-color: #660909;
+        border: none;
+        padding: 10px;
+        text-align: center;
+        cursor: pointer;
+    
+
+    }
+
+
+    .ant-btn{
+        position: initial;
+        // float:right;
+        margin-top: 1%;
+        margin-left: 85%;
+        height: 40px;
+        width: 118px;
+        background-color: #DE5454;
+        border: none;
+
+        span{
+            color: white
+        }
+    } 
+
+    .ant-btn-default:hover {
+        background: #932929
+        
+    }
+
+    .ant-btn[disabled], .ant-btn[disabled]:hover, .ant-btn[disabled]:focus, .ant-btn[disabled]:active{
+        background-color: #a77878;
+    }
+}
+
+.comment{
+    .form{
+        height: 118px;
+        background-color: #888787;
+        border-radius: 6px;
+        width: 618px;
+        margin-left: 10px;
+        padding: 10px;
+
+        .text{
+            position: relative;
+        }
+    }
+
+    .ant-comment-content{
+        background: #888787;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    }
+
+    
+}

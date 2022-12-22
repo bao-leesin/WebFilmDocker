@@ -1,0 +1,67 @@
+.discover{
+    min-height: 500px;
+    padding: 40px;
+    .flex{
+        display: flex;
+    }
+    .btnGenre{
+        margin: 10px;
+        // width: 100px;
+        height: 40px;
+        padding: 10px;
+        background-color: rgb(156, 48, 48);
+        border-radius: 10px;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .btnGenre-active{
+        background-color: rgb(233, 34, 34);
+        border-radius: 10px;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        cursor: pointer;
+        margin: 10px;
+        // width: 100px;
+        height: 40px;
+        padding: 10px;
+    }
+    .btnGenre :hover{
+        background-color: rgb(233, 34, 34);
+    }
+
+    .content{
+        display: block;
+        img{
+            object-fit:cover;
+            border-radius: 5px;
+            
+          }
+        .card{
+            display: flex;
+            margin: 20px;
+            .info{
+               display: block;
+               margin: 20px;
+               color: white;
+               .title{
+                  font-size: 20px;
+                  cursor: pointer;
+                  color: white!important;
+               }
+               .xemngay{
+                  cursor: pointer;
+                  margin-top: 50px;
+                  width: 113px;
+                  height: 40px;
+                  border-radius: 5px;
+                  padding: 10px 20px 10px 30px;
+                  color:white;
+                  background-color: #DE5454;
+               }
+            }
+          }
+    }
+}

@@ -1,0 +1,177 @@
+
+.modalVip{
+    font-family: 'Roboto Slab', serif;
+    .ant-modal-body{
+        padding: 0;
+    }
+
+    .ant-modal-close{
+        height: 20px;
+    }
+    .title{
+        width: 100%;
+        background-color: #393A3F;
+        padding: 20px;
+        img{
+            width: 50px;
+        }
+        .d1{
+            font-weight: 500;
+            color: white;
+            font-size: 18px;
+        }
+
+        .d2{
+            font-weight: 300;
+            color: #646363;
+            font-size: 14px;
+        }
+    }
+
+    .content{
+      
+        background-color: #FFFFFF;
+        padding: 20px;
+        width: 90%;
+        margin: auto;
+         .Packs{
+            display: flex;
+            
+            .pack-bought{
+                border: 2px solid #2cf100;
+                background-color: #FEE5E5!important
+            }
+            .pack-active{
+                background-color: #FEE5E5!important;
+                border: 1px solid #D1A623;
+            }
+            .pack, .pack-active, .pack-bought{
+                border-radius: 5px;
+                width: 200px;
+                height: 180px;
+                background-color: #D9D9D9;
+                padding: 10px;
+                margin:auto;
+                margin: 0px 10px 0px 10px;
+                
+                .d1{
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+    
+                .d2{
+                    font-size: 13px;
+                    font-weight: 300;
+                }
+    
+                .d3{
+                    margin-top: 7vh;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+    
+                
+            }
+         }
+
+        .tt{ 
+            margin-left: 1.2%;
+            font-size: 10px;
+            margin-top: 3vh;
+            margin-bottom: 4vh;
+
+        }
+
+        .tt2{
+            font-size: 20px;
+            font-weight: 500;
+            margin-left: 1.2%;
+            .mastercard{
+                display: flex;
+                width: 300px;
+                height: 100%;
+                background-color: #FEE5E5;
+                padding: 10px;
+               border-radius: 5px ;
+               border: 1px solid #D1A623;
+                .t1{
+                    display: block;
+                    padding: 10px;
+                }
+                .d1{
+                    font-size: 15px;
+                    margin-left: 10px;
+                }
+
+                .d2{
+                    font-size: 12px;
+                    margin-left: 10px;
+                    color: #393A3F;
+                }
+            }
+        }
+        .tt3{
+            margin-left: 10px;
+            text-align: center;
+            background-color: #D9D9D9;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+            .g1{
+                // background-color: white;
+                // border-radius: 7px;
+                // position:unset;
+            }
+            .ant-input{
+                width: 50%;
+                height: 50px;
+                border-radius: 7px;
+                
+            }
+
+            .ant-input-prefix {
+                position: absolute;
+                left: 280px;
+                top: 10px;
+            }
+
+            .ant-input-affix-wrapper {
+                width: 50%;
+                border-radius: 7px;
+            }
+        }
+        .tt4{
+            padding: 10px;
+            .gr1{
+                margin-top: 10px;
+                width: 100%;
+                display: flex;
+                .bt1{
+                    width: 30%;
+                    height: 60px;
+                    padding: 10px;
+                    text-align: center;
+                    background-color: #3D3D3D;
+                    border-radius: 6px 0 0 6px;
+                    font-size: 25px;
+                    font-weight: 500;
+                    color: white;
+                    // cursor: pointer;
+                }
+                .bt2{
+                    width: 70%;
+                    padding: 10px;
+                    text-align: center;
+                    background-color: #CCAB46;
+                    border-radius: 0 6px 6px 0;
+                    font-size: 25px;
+                    font-weight: 600;
+                    color: rgb(0, 0, 0);
+                    cursor: pointer;
+
+                }
+            }
+            
+        }
+    }
+}

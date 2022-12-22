@@ -1,0 +1,108 @@
+.login{
+
+
+
+    font-family: 'Roboto Serif', serif;
+    color: black;
+    text-align: center;
+    padding:20px 30px 40px 30px;
+
+    .back{
+        
+            position: absolute;
+            top: 21px;
+            left: 26px;
+        
+
+    }
+    h3{
+        margin-top: 50px;
+        font-weight: 500;
+    }
+    span{
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+    .card{
+        cursor: pointer;
+        text-align: left;
+        width: 100%;
+        border-radius: 5px;
+        background-color:rgb(140, 140, 140);
+        margin: 10px;
+        img{margin: 10px;
+
+        }
+    }
+
+    .title{
+        font-weight: 500;
+        
+    }
+    .input{
+       margin-top: 20px;
+       
+        .ant-input{
+            border-radius: 5px!important;
+            margin-bottom: 10px;
+            padding: 20px;
+        }
+    }
+
+    .ant-btn{
+        width: 200px;
+        height: 40px;
+        border-radius: 5px;
+        font-family: 'Roboto', serif;
+        
+        position: unset;
+        background-color: #DE5454;
+        border: none;
+        span{
+            color: white;
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+
+    .ant-btn:hover ,.ant-btn:focus {
+        color: white;
+        background-color: #722626;
+    }
+
+    a{
+        color: #DE5454;
+    }
+
+    .otp{
+        display: unset;
+        input{
+            width: 40px!important;
+            height: 40px!important;
+            background-color: #F6F6F6;
+            border-color: #040404;
+    border-radius: 69px;
+    margin-left: 5px;
+        }
+    }
+
+    .buttonOTP{
+        .ant-btn{
+            
+            background-color: #F8A435;
+            
+        }
+    
+        .ant-btn:hover ,.ant-btn:focus {
+            
+            background-color: #b77a2b;
+        }
+    }
+
+}
+.modal{
+    .ant-modal-close{
+        height: 10px;
+    }
+}

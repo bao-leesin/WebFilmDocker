@@ -1,0 +1,41 @@
+.searchPage{
+    padding: 20px;
+    min-height: 500px;
+ h2{
+    text-align: center;
+    color: white;
+    padding: 30px;
+ 
+ }
+
+ img{
+   object-fit:cover;
+   border-radius: 5px;
+   
+ }
+
+ .card{
+   display: flex;
+   margin: 20px;
+   .info{
+      display: block;
+      margin: 20px;
+      color: white;
+      .title{
+         font-size: 20px;
+         cursor: pointer;
+         color: white!important;
+      }
+      .xemngay{
+         cursor: pointer;
+         margin-top: 50px;
+         width: 113px;
+         height: 40px;
+         border-radius: 5px;
+         padding: 10px 20px 10px 30px;
+         color:white;
+         background-color: #DE5454;
+      }
+   }
+ }
+}

@@ -1,0 +1,297 @@
+.account{
+    text-align: center;
+    // align-items: center;
+    font-family: 'Roboto Slab', serif;
+    .user{
+        font-size: 26px;
+        color: white;
+        span{
+            font-size: 16px;
+        }
+        img{
+            
+            width: 60px;
+        }
+    }
+
+    .GNV{
+        margin-left:45px;
+        margin-top: 25px;
+        .ant-btn{
+            font-weight: 600;
+            font-size: 16px;
+            border-radius: 5px;
+            color: rgba(0, 0, 0, 0.85);
+            background: #ccab46;
+            border: none;
+        }
+    }
+    .center{
+        text-align: center;
+    }
+    
+    .ant-layout-sider {
+        background: #6B6B6B;
+    }
+
+    .ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub{
+        background: #6B6B6B
+    }
+
+    .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected{
+        background-color: #67616100;
+        color: #24E042;
+    }
+
+    .layout{
+        .ant-layout {
+            
+            background: #514C51E5;
+        }
+    }
+
+    h2  {
+        color:white;
+        font-weight: 600;
+    }
+
+    .infoAccount{
+        font-family: 'Roboto Slab', serif;
+        padding: 40px 20px 40px 20px;
+      
+        .Cc{text-align: start;
+            margin-left: 10%;
+            font-weight: 400;
+            color: #CCCCCC;
+            margin-bottom: 10px;
+            margin-top: 30px;
+        }
+        //Thông tin cá nhân
+        .card1{
+            
+            margin: auto;
+            padding: 10px;
+            width: 80%;
+            height: 100%;
+            background-color: #676161;
+            margin-bottom: 5vh;
+            .bt1{
+                text-align: start;
+            }
+          .thin{
+            font-weight: 100;
+          }
+          
+          .bt3{
+            .btn{
+                margin-top: 1.5vw;
+               position: initial;}
+               .ant-btn{
+                border-radius: 5px;
+                border-color: #514c5100;
+               }
+              
+          }
+        }
+        //vip
+        .card2{
+            margin: auto;
+            padding: 20px;
+            width: 80%;
+            height: 100%;
+            background-color: #DFBF5D;
+
+            .bt1{
+                text-align: start;
+                font-weight: 500;
+                font-size: 16px;
+            }
+
+            .bt2{
+                text-align: start;
+                font-weight: 300;
+                font-size: 16px;
+            }
+
+            .bt3{
+                .btn{
+                    margin-top: 1vw;
+                    position: initial;
+                    font-size: 16px;
+                }
+                 .ant-btn{
+                     border-radius: 5px;
+                     border-color: #514c5100;
+                    }
+            }
+        }
+
+        .card3{
+            margin: auto;
+            padding: 30px;
+            width: 80%;
+            height: 100%;
+            background-color: #676161;
+            color:#FFFFFF;
+            
+            .start{
+                text-align: start;
+                font-weight: 300;
+                .bold{
+                    font-weight: 500;
+                    font-size: 18px;
+                }
+            }
+
+            .end{
+                float: right;
+                font-weight: 500;
+                font-size: 16px;
+                cursor: pointer;
+            }
+            hr{
+                margin-top: 3vh;
+                margin-bottom: 3vh;
+            }
+        }
+
+      .infofo{
+        .ant-form-item{
+            margin-bottom: 5px!important;
+          }
+
+          button{
+            display: block!important;
+          }
+      }
+        
+       
+
+    }
+    //feedback
+    .feedBack{
+        font-family: 'Roboto Slab', serif;
+        padding: 40px 120px 40px 120px;
+        color: white;
+        .flex{
+            text-align: start;
+            .title{
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            .content{
+                .ul{
+                    width: 100%;
+                }
+                .ant-menu-sub.ant-menu-inline{
+                    background: #24e04300;
+                }
+                .ant-menu{
+                    background: #1b1e1c00;
+                    color: #FFFFFF;
+                }
+                .ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left{
+                    border: none;
+                }
+                .ant-menu-light .ant-menu-item:hover, .ant-menu-light .ant-menu-item-active, .ant-menu-light .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open, .ant-menu-light .ant-menu-submenu-active, .ant-menu-light .ant-menu-submenu-title:hover{
+                    color: white;
+                }
+                .ant-radio-wrapper{
+                    color: #FFFFFF;
+                }
+            }
+
+            .btn{
+                background-color: #dc3737;
+                width: 100px;
+                margin: auto;
+                padding: 10px;
+                border-radius: 5px;
+                cursor: pointer;
+                text-align: center;
+            }
+             .btn:hover{
+                background-color: #DE9999;
+             }
+        }
+    }
+
+    .chung{
+        font-family: 'Roboto Slab', serif;
+        padding: 40px 120px 40px 120px;
+        .btnCS{
+            margin: 10px;
+            background-color: #DE5454;
+            width: 100px;
+            height: 40px;
+            border-radius: 5px;
+            padding-top: 10px;
+            color:white;
+            cursor: pointer;
+
+            
+        }
+        .flex1{
+            margin-left: 85%;
+        }
+        .flex{
+            display: flex;
+            position: relative;
+          
+            
+        }
+
+        .box{
+            color: white;
+            display: grid;
+    /* grid-template-columns: 25% 25% 25% 25%; */
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+        }
+        .khungImg{
+            display: block;
+            width: 300px;
+            margin: 10px;
+            img{
+                    width: 300px;
+                    height: 160px;
+                }
+
+        .delete{
+            position: absolute;
+            width: 300px;
+            height: 160px;
+            background-color: #282a296c;
+            padding-top: 50px;
+            font-size: 40px;
+            cursor: pointer;
+        }
+        }
+    }
+    .modalInfo{
+        text-align: center;
+        .ant-modal-close{
+            height: 10px;
+        }
+        .modaltitle{
+            text-align: center;
+        }
+    }
+
+    
+    
+}
+
+.infofo{
+    .ant-form-item{
+        margin-bottom: 5px!important;
+      }
+
+      .button{
+        display: block!important;
+      }
+
+      input{
+        height: 40px;
+      }
+  }

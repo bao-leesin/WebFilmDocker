@@ -1,0 +1,22 @@
+@import "./common/color.scss";
+@import "./common/login.scss";
+@import "./common/account.scss";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  
+  background-color: #464146!important;
+  font-family: "Roboto"!important ;
+}
+.container {
+  margin: 20px 40px;
+  max-width: 1280px;
+  margin: auto;
+}
+
