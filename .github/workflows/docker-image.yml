@@ -1,4 +1,4 @@
-name: Docker image FE webfilm
+name: appphim
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: appphim
+    runs-on: ubuntu-latest
     steps:
       -
         name: Checkout
